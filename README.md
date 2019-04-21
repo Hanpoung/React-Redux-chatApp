@@ -1,4 +1,5 @@
-- [整体架构React-redux-chatapp]
+# 整体架构React-redux-chatapp
+
 - [项目安装](#)
 - [项目打包](#)
 - [项目启动](#)

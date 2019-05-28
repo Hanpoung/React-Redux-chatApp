@@ -64,8 +64,8 @@ npm run server
       age: {type: Number, require: true}
   }))
   User.create({
-     user: 'xuejiao',
-     age: 25
+     user: 'phan',
+     age: 24
      },function(err,doc){
      if(!err) {
                 console.log(doc)
@@ -89,7 +89,7 @@ npm run server
 4. 具有完善的文档支持
 # 前后端端口不一致的解决方法
   1. 在webpack-dev-derver的proxy的属性中配置允许的路由接口
-  2. 在package.ison文件中配置proxy;（本项目中使用）
+  2. 在package.json文件中配置proxy;（本项目中使用）
   3. 还可以使用jsonp的形式，解决跨域的问题;
   * Jsonp的优点：它不像XMLHttpRequest对象实现的Ajax请求那样受到同源策略的限制;它的兼容性更好，在更加古老的浏览器中都可以运行，不需要XMLHttpRequest或ActiveX的支持;并且在请求完毕后可以通过调用callback的方式回传结果。
   * JSONP的缺点：他只支持GET请求而不支持POST等其他类型的HTTP请求，且只支持跨域HTTP请求这种情况，不能解决不同域的两个页面之间进行JavaScript调用的问题
